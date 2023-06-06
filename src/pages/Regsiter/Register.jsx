@@ -31,7 +31,14 @@ const Register = () => {
             <span className="label-text">Password</span>
           </label>
           <input type="password" placeholder="password" name="password" className="input input-bordered" required /> 
-          <span className="text-red-500">{'error'}</span>
+          
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Confirm Password</span>
+          </label>
+          <input type="password" placeholder="password" name="confirm" className="input input-bordered" required /> 
+          
         </div>
         <div className="form-control">
           <label className="label">
@@ -40,7 +47,7 @@ const Register = () => {
           <input type="text" placeholder="Photo URL" name="photo" className="input input-bordered" />
         </div>
         <div className="form-control mt-6">
-          <button type="submit" className="btn btn-accent">Register</button>
+          <button type="submit" className="btn btn-warning">Register</button>
           <p className="mt-5 text-center font-semibold"><small>Already Have Account! <Link to='/Login'><span className="text-emerald-500 text-lg">Login</span></Link></small></p>
         </div>
         </form>

@@ -26,11 +26,11 @@ const Login = () => {
           <input type="password" placeholder="password" name="password" className="input input-bordered" required />
         </div>
         <div className="form-control mt-6">
-          <button type="submit" className="btn btn-accent">Login</button>
+          <button type="submit" className="btn btn-warning">Login</button>
 
          
           
-          <p className="mt-5 text-center font-semibold"><small>New to Toys Cars World? <Link to='/register'><span className="text-orange-500 text-lg">Register</span></Link></small></p>
+          <p className="mt-5 text-center font-semibold"><small>New to Fashion Summer <Link to='/register'><span className="text-orange-500 text-lg">Register</span></Link></small></p>
         </div>
         </form>
       </div>
