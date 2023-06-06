@@ -21,7 +21,7 @@ const NavBar = () => {
       </ul>
     </div>
    <Link to='/'> <img className="w-24 h-24 " src="https://img.freepik.com/free-vector/fashion-brand-logo-template_23-2148661990.jpg?w=740&t=st=1686064949~exp=1686065549~hmac=1fe7b23053d7fc015d6764fd81fa7cb9f4dcd8a6b4e576764c60a70c600eda1b" alt="" /></Link>
-   <Link to='/'> <a className="btn btn-ghost normal-case text-xl font-serif items-center">Fashion Summer</a></Link>
+   <Link to='/'> <span className="btn btn-ghost normal-case text-xl font-serif items-center">Fashion <span className="text-orange-400">Summer</span></span></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
