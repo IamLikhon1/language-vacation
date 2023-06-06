@@ -18,7 +18,7 @@ const Register = () => {
       console.log(user)
       updateUserProfile(data.name,data.photoURL)
       .then(()=>{
-          toast.success('successfully Login')
+          toast.success('successfully Register')
           navigate('/')
       })
       .catch(error=>console.log(error))
