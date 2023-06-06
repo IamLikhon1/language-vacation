@@ -8,6 +8,8 @@ import {
 import Main from './Layout/Main.jsx';
 import Home from './pages/Home/Home/Home.jsx';
 import ErrorPage from './componet/ErrorPage.jsx';
+import Login from './pages/Home/Login/Login';
+import Register from './pages/Regsiter/Register';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>
+      },
+      {
+        path:'/login',
+        element:<Login></Login>
+      },
+      {
+        path:'/register',
+        element:<Register></Register>
       }
     ]
   },
