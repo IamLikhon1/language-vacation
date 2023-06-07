@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { useForm } from "react-hook-form";
 import  {  toast } from 'react-hot-toast';
+import SocialSign from "../../componet/SocialSign/SocialSign";
 
 
 const Register = () => {
@@ -80,6 +81,7 @@ const Register = () => {
           <p className="mt-5 text-center font-semibold"><small>Already Have Account! <Link to='/Login'><span className="text-emerald-500 text-lg">Login</span></Link></small></p>
         </div>
         </form>
+        <SocialSign></SocialSign>
       </div>
     </div>
   </div>
