@@ -11,6 +11,7 @@ import ErrorPage from './componet/ErrorPage.jsx';
 import Login from './pages/Home/Login/Login';
 import Register from './pages/Regsiter/Register';
 import AuthProvider from './providers/AuthProvider';
+import Instructors from './pages/Instructors/Instructors';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
       {
         path:'/register',
         element:<Register></Register>
+      },
+      {
+        path:'/instructors',
+        element:<Instructors></Instructors>,
+        loader:()=>fetch('http://localhost:5000/instructor')
       }
     ]
   },
