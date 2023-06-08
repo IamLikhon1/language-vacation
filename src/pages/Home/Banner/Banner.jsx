@@ -4,6 +4,7 @@ const Banner = () => {
     return (
        <div>
         
+        
         <Carousel>
                 <div>
                     <img src="https://img.freepik.com/free-vector/flat-geometric-travel-youtube-thumbnail_23-2148927020.jpg?w=826&t=st=1686081468~exp=1686082068~hmac=891287fdc0bd6d644d49d7a156ad2f9afa74b7b8b8552a4db871a7e2bc640816" />
