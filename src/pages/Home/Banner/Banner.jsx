@@ -7,15 +7,19 @@ const Banner = () => {
         
         <Carousel>
                 <div>
-                    <img src="https://img.freepik.com/free-vector/hand-drawn-summer-camping-social-media-cover-template_23-2149480551.jpg?w=996&t=st=1686237041~exp=1686237641~hmac=73abb46243fa8bd682533023378304a2bf19b5a57b0bcf8f4e85707decff84f2" />
+                    <img src="https://img.freepik.com/free-psd/flat-design-language-learning-template_23-2149985505.jpg?w=996&t=st=1686240811~exp=1686241411~hmac=c840fb3f853b262ff41c2ead26284aca91e1e62480fd91e2b15eddc38d74827a" />
                     
                 </div>
                 <div>
-                    <img src="https://img.freepik.com/free-vector/hand-drawn-kids-toys-twitch-banner-template_23-2149634010.jpg?w=996&t=st=1686237110~exp=1686237710~hmac=aedaefabc594aa218cac48a1bca6cb9f38e7fe7bc62cb1e6b032f5e053d97f17" />
+                    <img src="https://img.freepik.com/free-psd/hand-drawn-language-learning-facebook-template_23-2150515118.jpg?w=996&t=st=1686240862~exp=1686241462~hmac=2ba033372cdb8d3a0233708c8021bf6b289e0e8babd9f9c4825820ef00384bf1" />
                     
                 </div>
                 <div>
-                    <img src="https://img.freepik.com/premium-vector/summer-camp-kids-wear-scout-honor-uniform-banner-template-background-education-advertising_83111-2812.jpg?w=996" />
+                    <img src="https://img.freepik.com/free-psd/hand-drawn-language-learning-facebook-template_23-2150511164.jpg?w=996&t=st=1686240903~exp=1686241503~hmac=37cc4ba29495c6a7162cae84aadcbb878a848f23084c91cb4c78b0cfed4e8d7b" />
+                    
+                </div>
+                <div>
+                    <img src="https://img.freepik.com/premium-psd/hand-drawn-language-learning-facebook-template_23-2150511184.jpg?w=996" />
                     
                 </div>
             </Carousel>

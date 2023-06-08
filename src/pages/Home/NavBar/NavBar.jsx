@@ -38,8 +38,8 @@ const NavBar = () => {
         {navItems}
       </ul>
     </div>
-   <Link to='/'> <img className="w-16 h-16 rounded-full " src="https://img.freepik.com/free-vector/fashion-brand-logo-template_23-2148661990.jpg?w=740&t=st=1686064949~exp=1686065549~hmac=1fe7b23053d7fc015d6764fd81fa7cb9f4dcd8a6b4e576764c60a70c600eda1b" alt="" /></Link>
-   <Link to='/'> <span className="btn btn-ghost normal-case text-xl font-serif items-center text-white">Fashion Summer</span></Link>
+   <Link to='/'> <img className="w-16 h-16 rounded-full " src="https://img.freepik.com/premium-vector/education-icon-university-college-academy_8071-16303.jpg?w=740" alt="" /></Link>
+   <Link to='/'> <span className="btn btn-ghost normal-case text-xl font-serif items-center text-white">Foreign <span className="text-orange-700">Language</span> Learning <span className="text-orange-600">School</span></span></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

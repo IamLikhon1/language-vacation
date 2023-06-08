@@ -20,8 +20,8 @@ const Footer = () => {
 </footer> 
 <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
   <div className="items-center grid-flow-col">
-  <Link to='/'> <img className="w-24 h-24 " src="https://img.freepik.com/free-vector/fashion-brand-logo-template_23-2148661990.jpg?w=740&t=st=1686064949~exp=1686065549~hmac=1fe7b23053d7fc015d6764fd81fa7cb9f4dcd8a6b4e576764c60a70c600eda1b" alt="" /></Link>
-    <p>Fashion Summer. <br/> Copyright register in 2023 &copy;</p>
+  <Link to='/'> <img className="w-24 h-24 rounded-full " src="https://img.freepik.com/premium-vector/education-icon-university-college-academy_8071-16303.jpg?w=740" alt="" /></Link>
+    <p>Foreign Language Learning School. <br/> Copyright register in 2023 &copy;</p>
   </div> 
  
 </footer>
