@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import ClassesSection from "../ClassesSection/ClassesSection";
+import InstructorsSection from "../InstructorsSection/InstructorsSection";
 
 const Home = () => {
     return (
@@ -11,6 +12,9 @@ const Home = () => {
             {/* ClassesSection */}
             <ClassesSection></ClassesSection>
             {/* ClassesSection */}
+            {/* InstructorsSection */}
+            <InstructorsSection></InstructorsSection>
+            {/* InstructorsSection */}
 
         </div>
     );
