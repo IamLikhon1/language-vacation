@@ -3,7 +3,6 @@ import SingleCard from "./SingleCard";
 
 const Instructors = () => {
     const dataLoader=useLoaderData()
-    console.log(dataLoader)
     return (
         <div>
             <img className="w-full" src="https://img.freepik.com/premium-vector/businessman-explaining-scheme_23-2147504165.jpg?w=740" alt="" />

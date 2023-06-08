@@ -7,15 +7,15 @@ const Banner = () => {
         
         <Carousel>
                 <div>
-                    <img src="https://img.freepik.com/free-vector/flat-geometric-travel-youtube-thumbnail_23-2148927020.jpg?w=826&t=st=1686081468~exp=1686082068~hmac=891287fdc0bd6d644d49d7a156ad2f9afa74b7b8b8552a4db871a7e2bc640816" />
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-summer-camping-social-media-cover-template_23-2149480551.jpg?w=996&t=st=1686237041~exp=1686237641~hmac=73abb46243fa8bd682533023378304a2bf19b5a57b0bcf8f4e85707decff84f2" />
                     
                 </div>
                 <div>
-                    <img src="https://img.freepik.com/free-psd/adventure-outdoors-children-banner-template_23-2148829425.jpg?w=826&t=st=1686081555~exp=1686082155~hmac=9c5903bd32b16b5837fdc9c3a0158627be7a62bed1dd4a59b3eaab2ca40a7326" />
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-kids-toys-twitch-banner-template_23-2149634010.jpg?w=996&t=st=1686237110~exp=1686237710~hmac=aedaefabc594aa218cac48a1bca6cb9f38e7fe7bc62cb1e6b032f5e053d97f17" />
                     
                 </div>
                 <div>
-                    <img src="https://img.freepik.com/free-vector/wild-nature-banner-template_23-2148879639.jpg?w=740&t=st=1686081608~exp=1686082208~hmac=64086dc5fba4276fbca725df082fac5f6739367a8e167cc39ad6ec6d69fcbcec" />
+                    <img src="https://img.freepik.com/premium-vector/summer-camp-kids-wear-scout-honor-uniform-banner-template-background-education-advertising_83111-2812.jpg?w=996" />
                     
                 </div>
             </Carousel>
