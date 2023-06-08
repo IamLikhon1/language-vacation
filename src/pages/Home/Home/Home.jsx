@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import ClassesSection from "../ClassesSection/ClassesSection";
 
 const Home = () => {
     return (
@@ -7,6 +8,10 @@ const Home = () => {
             {/* banner */}
             <Banner></Banner>
             {/* banner */}
+            {/* ClassesSection */}
+            <ClassesSection></ClassesSection>
+            {/* ClassesSection */}
+
         </div>
     );
 };

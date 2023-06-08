@@ -39,7 +39,7 @@ const NavBar = () => {
       </ul>
     </div>
    <Link to='/'> <img className="w-16 h-16 rounded-full " src="https://img.freepik.com/premium-vector/education-icon-university-college-academy_8071-16303.jpg?w=740" alt="" /></Link>
-   <Link to='/'> <span className="btn btn-ghost normal-case text-xl font-serif items-center text-white">Foreign <span className="text-orange-700">Language</span> Learning <span className="text-orange-600">School</span></span></Link>
+   <Link to='/'> <span className="btn btn-ghost normal-case text-xl font-serif items-center text-white">Foreign <span className="text-orange-500">Language</span> Learning <span className="text-orange-600">School</span></span></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
