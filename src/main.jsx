@@ -13,6 +13,7 @@ import Register from './pages/Regsiter/Register';
 import AuthProvider from './providers/AuthProvider';
 import Instructors from './pages/Instructors/Instructors';
 import DashBoard from './Layout/DashBoard';
+import Classes from './pages/Classes/Classes';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
         path:'/instructors',
         element:<Instructors></Instructors>,
         loader:()=>fetch('http://localhost:5000/instructor')
+      },
+      {
+        path:'/classes',
+        element:<Classes></Classes>,
+        loader:()=>fetch('http://localhost:5000/classes')
       }
     ]
   },

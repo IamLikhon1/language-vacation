@@ -75,7 +75,7 @@ const ClassesSection = () => {
             </div>
            {/* card5 */}
 
-           {/* card5 */}
+           {/* card6 */}
            <div className="card card-compact w-full  hover:bg-purple-300 bg-base-100 shadow-xl">
             <figure><img className="w-full h-72 hover:scale-110" src="https://img.freepik.com/premium-photo/blackboard-with-text-learn-spanish-flag-spain-books-pencils-compass_656538-1861.jpg?w=740" alt="Shoes" /></figure>
             <div className="card-body">
@@ -87,7 +87,7 @@ const ClassesSection = () => {
                 <p className="font-medium">Description:  From Madrid to Mexico City</p>
             </div>
             </div>
-           {/* card5 */}
+           {/* card6 */}
 
             </div>
             
