@@ -12,6 +12,7 @@ import Login from './pages/Home/Login/Login';
 import Register from './pages/Regsiter/Register';
 import AuthProvider from './providers/AuthProvider';
 import Instructors from './pages/Instructors/Instructors';
+import DashBoard from './Layout/DashBoard';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path:'/dashboard',
+    element:<DashBoard></DashBoard>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

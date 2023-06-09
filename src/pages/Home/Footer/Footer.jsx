@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-base-200 text-base-content">
+            <footer className="footer p-10 bg-base-200  text-base-content">
   <div>
     <span className="footer-title">Contact Information</span> 
     <a className="link link-hover">Phone: 01614266700</a> 
     <a className="link link-hover">Email: likhonadnan55@gmail.com</a> 
-    <a className="link link-hover">GitHub: https://github.com/IamLikhon1</a> 
+    <a href="https://github.com/IamLikhon1" className="link link-hover">GitHub: https://github.com/IamLikhon1</a> 
     
   </div> 
   

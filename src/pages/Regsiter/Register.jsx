@@ -29,7 +29,7 @@ const Register = () => {
 
     return (
         <div className="grid md:grid-cols-2 p-10">
-            <img src="https://img.freepik.com/free-vector/key-concept-illustration_114360-6305.jpg?w=740&t=st=1684349654~exp=1684350254~hmac=2eff1ea9339d4713fb74e1056c3f9f288471f3e8fae4b9eb627b4e5f4f8e0da4" alt="" />
+            <img src="https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7865.jpg?w=740&t=st=1686286416~exp=1686287016~hmac=6f1fa70fedcb2c70ca7e12514c65fe92cbaffcc76616c1b7a4492651c993c580" alt="" />
             <div className="w-full">
             <div className="hero min-h-screen">
   <div className="hero-content flex-col">
