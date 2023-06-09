@@ -4,16 +4,17 @@ const NewsLetter = () => {
     return (
         <div className="featured-items bg-fixed text-white pt-8 my-20">
             
-            <div className="md:flex justify-center items-center bg-slate-500 bg-opacity-60 pb-20 pt-12 px-36">
+            <div className="md:flex justify-center items-center pb-20 pt-12 px-36">
                 <div>
-                    <img src="https://img.freepik.com/free-photo/library-with-books_1063-98.jpg?w=740&t=st=1686283960~exp=1686284560~hmac=e36aadd6a218edc021363e83b0f89d18c72554fd66a8228a15d71265ea3090ee" alt="" />
+                    <h2 className="text-5xl uppercase font-semibold text-orange-500">JOIN OUR NEWSLETTER</h2>
+                    <h4 className="text-2xl my-10">Subscribe to our newsletter to receive the latest news & updates.</h4>
+                    <div>
+                    
+                    <input  type="text" placeholder="Email" className="input input-bordered w-full max-w-xs text-black p-5  " /> 
+                    <button className="btn btn-success ml-5 w-32 hover:btn-info">Send</button>
+                    </div>
                 </div>
-                <div className="md:ml-10">
-                    <p>Aug 22, 2023</p>
-                    <p className="uppercase">where can i get some</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero tenetur accusantium nesciunt totam porro aspernatur, numquam temporibus natus quo doloribus ipsum, veritatis ex vitae! Expedita odio illo, perspiciatis minus eum eveniet? A distinctio culpa quasi expedita. Vel, cum? Recusandae eligendi iure libero distinctio similique cumque ab quae ducimus ipsam!</p>
-                    <button className="btn btn-outline border-0 border-b-4 mt-4">Order Now</button>
-                </div>
+               
             </div>
         </div>
     );
