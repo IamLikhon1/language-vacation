@@ -53,7 +53,9 @@ const router = createBrowserRouter([
     children:[
       {
         path:'studentclass',
-        element:<StudentClass></StudentClass>
+        element:<StudentClass></StudentClass>,
+        loader:()=>fetch('http://localhost:5000/getAllClass')
+        
       },
       {
         path:'payment',
