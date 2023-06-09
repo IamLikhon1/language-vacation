@@ -11,7 +11,7 @@ const InstructorsSection = () => {
     }
     return (
         <div>
-             <h2 className="text-5xl my-10 text-center font-serif font-medium text-orange-500 ">Our Popular Instructors Section</h2>
+             <h2 className="text-4xl my-10 text-center font-serif font-medium text-orange-500 uppercase ">Our Popular Instructors Section</h2>
 
              <div className="grid md:grid-cols-3 gap-10 mx-16 my-20 ">
 

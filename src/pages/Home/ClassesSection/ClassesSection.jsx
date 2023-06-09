@@ -2,7 +2,7 @@ import { FaUsers } from 'react-icons/fa';
 const ClassesSection = () => {
     return (
         <div>
-            <h2 className="text-5xl text-center my-16 font-serif font-medium text-orange-500">Popular Classes Section</h2>
+            <h2 className="text-5xl text-center my-16 font-serif font-medium text-orange-500 uppercase">Popular Classes Section</h2>
 
             <div className="grid md:grid-cols-3 gap-6 mx-16 mt-10 mb-20">
 
