@@ -23,7 +23,7 @@ const NavBar = () => {
               <p><img className="w-12 h-12 rounded-full mr-10" src={user?.photoURL} alt="" /></p> 
               </>:<></>
             }       
-           { user?  <button onClick={handleLogOut} className="text-lg btn btn-primary hover:rounded-2xl"> <Link to='/login'>Log Out</Link> </button>:<button className=" text-lg btn btn-warning hover:rounded-2xl"> <Link to='/login'>Login</Link> </button> }      
+           { user? <button onClick={handleLogOut} className="text-lg btn btn-primary hover:rounded-2xl">Log Out</button>:<button className=" text-lg btn btn-warning hover:rounded-2xl"> <Link to='/login'>Login</Link> </button> }      
     
     </>
     return (

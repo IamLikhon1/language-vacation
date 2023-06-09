@@ -1,4 +1,5 @@
-import { Outlet } from "react-router-dom";
+import { FaHome, FaUserAlt,FaWallet } from 'react-icons/fa';
+import { NavLink, Outlet } from "react-router-dom";
 
 const DashBoard = () => {
     return (
@@ -13,12 +14,17 @@ const DashBoard = () => {
     <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
   
   </div> 
-  <div className="drawer-side bg-[#D1A054]">
+  <div className="drawer-side bg-[#A5A3c1]">
     <label htmlFor="my-drawer-2" className="drawer-overlay"></label> 
-    <ul className="menu p-4 w-80 ">
+    <ul className="menu p-4 w-80 text-white font-medium font-serif ">
       {/* Sidebar content here */}
-      <li><a>Sidebar Item 1</a></li>
-      <li><a>Sidebar Item 2</a></li>
+
+
+      <li><NavLink to='/dashboard/studentclass'><FaUserAlt></FaUserAlt> My Selected Classes </NavLink></li>
+      <li><NavLink to='/dashboard/payment'><FaWallet></FaWallet> Payment</NavLink></li>
+      <div className="divider"></div>
+      <li><NavLink to='/'><FaHome></FaHome> Home</NavLink></li>
+
     </ul>
   
   </div>

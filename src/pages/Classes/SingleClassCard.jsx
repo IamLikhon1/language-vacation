@@ -1,7 +1,28 @@
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-hot-toast";
 
 const SingleClassCard = ({item}) => {
     const{available,instructor,name,image,price}=item
-    console.log(available)
+    const{user}=useContext(AuthContext)
+    const navigate=useNavigate()
+   
+
+
+    const handleSelect=()=>{
+
+      if(user){
+        console.log('Valo aso')
+      }
+      else{
+        toast.success('You Have To Login First')
+        navigate('/login')
+      }
+    }
+
+  
+
     return (
         <div>
             <div className="card w-full bg-base-100 shadow-xl">
@@ -14,7 +35,7 @@ const SingleClassCard = ({item}) => {
 
     
     <div className="card-actions justify-end my-5 cursor-pointer">
-      <button className="btn btn-primary">Buy Now</button>
+      <button onClick={handleSelect} className="btn btn-outline btn-warning border-0 border-b-4 text-orange-600">Select</button>
     </div>
   </div>
 </div>
