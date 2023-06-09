@@ -1,23 +1,45 @@
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
+import Swal from "sweetalert2";
 
 const SingleClassCard = ({item}) => {
-    const{available,instructor,name,image,price}=item
+    const{available,instructor,name,image,price,id}=item
     const{user}=useContext(AuthContext)
     const navigate=useNavigate()
+    const location=useLocation()
    
 
 
-    const handleSelect=()=>{
+    const handleSelect=item=>{
+      console.log(item)
+      const itemSelected={selectItemId:id, available,instructor,name,image,price}
 
       if(user){
-        console.log('Valo aso')
+        fetch('http://localhost:5000/addclass',{
+          method:'POST',
+          headers:{
+            'content-type':'application/json'
+          },
+          body:JSON.stringify(itemSelected)
+        })
+        .then(res=>res.json())
+        .then(data=>{
+          console.log(data)
+          if(data.insertedId){
+            Swal.fire({
+              title: 'Successfully',
+              text: 'You Selected This class successfully',
+              icon: 'success',
+              confirmButtonText: 'Done'
+            })
+          }
+        })
       }
       else{
         toast.success('You Have To Login First')
-        navigate('/login')
+        navigate('/login',{state:{from:location}})
       }
     }
 
