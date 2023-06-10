@@ -17,7 +17,7 @@ const SingleClassCard = ({item}) => {
       const itemSelected={selectItemId:id, available,instructor,name,image,price}
 
       if(user){
-        fetch('http://localhost:5000/addclass',{
+        fetch('https://b7a12-summer-camp-server-side-iam-likhon1.vercel.app/addclass',{
           method:'POST',
           headers:{
             'content-type':'application/json'

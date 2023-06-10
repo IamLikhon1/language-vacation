@@ -16,7 +16,7 @@ const SocialSign = () => {
             const loggedInUser=result.user
             console.log(loggedInUser)
             const saveUser={name:loggedInUser.displayName, email:loggedInUser.email}
-            fetch('http://localhost:5000/users',{
+            fetch('https://b7a12-summer-camp-server-side-iam-likhon1.vercel.app/users',{
           method:'POST',
           headers:{
             'content-type':'application/json'

@@ -4,13 +4,13 @@ import Swal from "sweetalert2";
 const ManageUser = () => {
     const [allUser,setAllUser]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/users')
+        fetch('https://b7a12-summer-camp-server-side-iam-likhon1.vercel.app/users')
         .then(res=>res.json())
         .then(data=>setAllUser(data))
     },[]);
 
     const handleMakeAdmin=(user)=>{
-        fetch(`http://localhost:5000/users/admin/${user._id}`,{
+        fetch(`https://b7a12-summer-camp-server-side-iam-likhon1.vercel.app/users/admin/${user._id}`,{
             method:'PATCH'
         })
         .then(res=>res.json())
@@ -31,7 +31,7 @@ const ManageUser = () => {
     }
 
     const handleInstructor=(user)=>{
-      fetch(`http://localhost:5000/users/instructor/${user._id}`,{
+      fetch(`https://b7a12-summer-camp-server-side-iam-likhon1.vercel.app/users/instructor/${user._id}`,{
         method:'PATCH'
     })
     .then(res=>res.json())

@@ -47,12 +47,12 @@ const router = createBrowserRouter([
       {
         path:'/instructors',
         element:<Instructors></Instructors>,
-        loader:()=>fetch('http://localhost:5000/instructor')
+        loader:()=>fetch('https://b7a12-summer-camp-server-side-iam-likhon1.vercel.app/instructor')
       },
       {
         path:'/classes',
         element:<Classes></Classes>,
-        loader:()=>fetch('http://localhost:5000/classes')
+        loader:()=>fetch('https://b7a12-summer-camp-server-side-iam-likhon1.vercel.app/classes')
       }
     ]
   },
@@ -63,7 +63,7 @@ const router = createBrowserRouter([
       {
         path:'studentclass',
         element:<StudentClass></StudentClass>,
-        loader:()=>fetch('http://localhost:5000/getAllClass')
+        loader:()=>fetch('https://b7a12-summer-camp-server-side-iam-likhon1.vercel.app/getAllClass')
         
       },
       {
