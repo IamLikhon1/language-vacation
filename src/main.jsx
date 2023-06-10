@@ -19,6 +19,11 @@ import StudentPayment from './pages/DashBoard/StudentClass/StudentPayment';
 import PrivateRoute from './providers/PrivateRoute';
 import ManageClass from './pages/DashBoard/Admin/ManageClass/ManageClass';
 import ManageUser from './pages/DashBoard/Admin/ManageUser/ManageUser';
+import {
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
+const queryClient = new QueryClient()
 
 const router = createBrowserRouter([
   {
@@ -79,6 +84,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AuthProvider><RouterProvider router={router} /></AuthProvider>
+     <QueryClientProvider client={queryClient}>
+     <AuthProvider><RouterProvider router={router} /></AuthProvider>
+    </QueryClientProvider>
+  
   </React.StrictMode>,
 )

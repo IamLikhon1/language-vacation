@@ -1,7 +1,11 @@
-
+import { motion } from "framer-motion"
 const ExtraSection = () => {
     return (
-        <div className="my-20">
+        <motion.div 
+        initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.5 }}
+        className="my-20">
             <h2 className="text-5xl text-orange-400 my-10 text-center font-serif">LATEST NEWS</h2>
 
             <div className="grid md:grid-cols-3 gap-5 mx-16 ">
@@ -41,7 +45,7 @@ const ExtraSection = () => {
 
             </div>
             
-        </div>
+        </motion.div>
     );
 };
 

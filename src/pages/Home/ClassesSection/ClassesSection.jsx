@@ -1,7 +1,11 @@
 import { FaUsers } from 'react-icons/fa';
+import { motion } from "framer-motion"
+
 const ClassesSection = () => {
     return (
-        <div>
+        <motion.div  initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}>
             <h2 className="text-5xl text-center my-16 font-serif font-medium text-orange-500 uppercase">Popular Classes Section</h2>
 
             <div className="grid md:grid-cols-3 gap-6 mx-16 mt-10 mb-20">
@@ -91,7 +95,7 @@ const ClassesSection = () => {
 
             </div>
             
-        </div>
+        </motion.div>
     );
 };
 
