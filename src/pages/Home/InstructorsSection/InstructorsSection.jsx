@@ -16,7 +16,7 @@ const InstructorsSection = () => {
              <div className="grid md:grid-cols-3 gap-10 mx-16 my-20 ">
 
                 {/* card 1 */}
-                <div className="card card-compact w-full hover:bg-orange-800  bg-base-100 shadow-xl">
+                <div className="card card-compact w-full   bg-base-100 shadow-xl">
                         <figure><img className="h-72" src="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=740&t=st=1686112596~exp=1686113196~hmac=39c258cc203aea8881b0943990f5252fcef848a5a9d60068dc7fb0c47c82f205" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Instructor: Mr.David Miller</h2>
@@ -28,7 +28,7 @@ const InstructorsSection = () => {
             </div>
                 {/* card 1 */}
                 {/* card 2 */}
-                <div className="card card-compact w-full hover:bg-orange-800  bg-base-100 shadow-xl">
+                <div className="card card-compact w-full   bg-base-100 shadow-xl">
                         <figure><img className="h-72" src="https://img.freepik.com/premium-vector/people-saving-money_24908-51568.jpg?w=740" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Instructor: Md. Habib Basar</h2>
@@ -41,7 +41,7 @@ const InstructorsSection = () => {
                 {/* card 2 */}
 
                 {/* card 3 */}
-                <div className="card card-compact w-full hover:bg-orange-800  bg-base-100 shadow-xl">
+                <div className="card card-compact w-full 0  bg-base-100 shadow-xl">
                         <figure><img className="h-72" src="https://img.freepik.com/free-vector/donald-trump-portrait-with-flat-design_23-2147940891.jpg?w=740&t=st=1686112998~exp=1686113598~hmac=594e5b0024a061324e75842d16bd86a3061e0bbbc8453e5d91e106fb44b4060b" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Instructor: Mr.Trump</h2>
@@ -54,7 +54,7 @@ const InstructorsSection = () => {
                 {/* card 3 */}
 
                 {/* card 4 */}
-                <div className="card card-compact w-full hover:bg-orange-800 bg-base-100 shadow-xl">
+                <div className="card card-compact w-full  bg-base-100 shadow-xl">
                         <figure><img className="h-72" src="https://img.freepik.com/premium-vector/person-avatar-icon-design-vector-multiple-use-vector-illustration_625349-280.jpg?w=740" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Instructor: Mr.Watson Smith</h2>
@@ -67,7 +67,7 @@ const InstructorsSection = () => {
                 {/* card 4 */}
 
                 {/* card 5 */}
-                <div className="card card-compact w-full hover:bg-orange-800  bg-base-100 shadow-xl">
+                <div className="card card-compact w-full   bg-base-100 shadow-xl">
                         <figure><img className="h-72" src="https://img.freepik.com/premium-vector/people-profile-graphic_24911-21374.jpg?w=740" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Instructor: Ms.Kylie Jenner</h2>
@@ -80,7 +80,7 @@ const InstructorsSection = () => {
                 {/* card 5 */}
 
                 {/* card 6 */}
-                <div className="card card-compact w-full hover:bg-orange-800 bg-base-100 shadow-xl">
+                <div className="card card-compact w-full  bg-base-100 shadow-xl">
                         <figure><img className="h-72" src="https://img.freepik.com/premium-vector/avatar-cute-little-boy-isolated-vector-illustration-cartoon-style_174639-55036.jpg?w=740" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Instructor: Mr. Asaduzzaman</h2>
