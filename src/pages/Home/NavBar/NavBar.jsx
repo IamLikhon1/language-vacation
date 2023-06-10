@@ -8,7 +8,7 @@ const NavBar = () => {
   );
   const handleToggle = (e) => {
     if (e.target.checked) {
-      setTheme("dark");
+      setTheme("black");
     } else {
       setTheme("light");
     }
