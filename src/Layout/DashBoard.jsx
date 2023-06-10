@@ -1,11 +1,13 @@
 import { FaHome, FaUserAlt,FaUserShield,FaUsers,FaWallet } from 'react-icons/fa';
-import { NavLink, Outlet } from "react-router-dom";
+import {  NavLink, Outlet } from "react-router-dom";
 import useAdmin from '../hooks/useAdmin';
+// import useInstructor from '../hooks/useInstructor';
 
 const DashBoard = () => {
 
   // const isAdmin=false;
   const[isAdmin]=useAdmin()
+  // const[isInstructor]=useInstructor()
 
 
     return (
@@ -24,16 +26,22 @@ const DashBoard = () => {
     <label htmlFor="my-drawer-2" className="drawer-overlay"></label> 
     <ul className="menu p-4 w-80 text-white font-medium font-serif ">
       {/* Sidebar content here */}
+
       {
-        isAdmin? <>
-         <li><NavLink to='/dashboard/manageclass'> <FaUserShield></FaUserShield> Manage Classes </NavLink></li>
+        isAdmin?<>
+         <li><NavLink to='/dashboard/manageclass'> <FaUserShield></FaUserShield> Manage Classes(Not Implement) </NavLink></li>
       <li><NavLink to='/dashboard/manageuser'><FaUsers></FaUsers>Manage Users</NavLink></li> 
         
-        </>:<>
+        </>:
+        <>
         <li><NavLink to='/dashboard/studentclass'><FaUserAlt></FaUserAlt> Your Selected Classes </NavLink></li>
       <li><NavLink to='/dashboard/payment'><FaWallet></FaWallet> Payment</NavLink></li>
         </>
       }
+
+      {/* {
+        isInstructor?<><li><NavLink to='/dashboard/addClass'><FaUserAlt></FaUserAlt> Add Class </NavLink></li></>:<><li><NavLink to='/dashboard/addClass'><FaUserAlt></FaUserAlt> No </NavLink></li></>
+      } */}
 
 
       

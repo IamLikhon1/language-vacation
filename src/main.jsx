@@ -23,6 +23,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
+import InstructorAdd from './pages/DashBoard/instructor/InstructorAdd';
 const queryClient = new QueryClient()
 
 const router = createBrowserRouter([
@@ -77,6 +78,11 @@ const router = createBrowserRouter([
       {
         path:'manageuser',
         element:<ManageUser></ManageUser>
+      },
+      // instructor
+      {
+        path:'addClass',
+        element:<InstructorAdd></InstructorAdd>
       }
     ]
   }
