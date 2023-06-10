@@ -19,8 +19,25 @@ const Register = () => {
       console.log(user)
       updateUserProfile(data.name,data.photoURL)
       .then(()=>{
-          toast.success('successfully Register')
-          navigate('/')
+
+        const saveInfo={name:data.name,email:data.email}   
+        fetch('http://localhost:5000/users',{
+          method:'POST',
+          headers:{
+            'content-type':'application/json',
+          
+          },
+          body:JSON.stringify(saveInfo)
+        })
+        .then(res=>res.json())
+        .then(data=>{
+          if(data.insertedId){
+            toast.success('successfully Register')
+            navigate('/')
+          }
+        })
+
+         
       })
       .catch(error=>console.log(error))
     })
