@@ -1,7 +1,8 @@
-import { FaHome, FaUserAlt,FaWallet } from 'react-icons/fa';
+import { FaHome, FaUserAlt,FaUserShield,FaUsers,FaWallet } from 'react-icons/fa';
 import { NavLink, Outlet } from "react-router-dom";
 
 const DashBoard = () => {
+  const isAdmin=false;
     return (
         <div className="mx-10">
             <div className="drawer lg:drawer-open">
@@ -18,10 +19,21 @@ const DashBoard = () => {
     <label htmlFor="my-drawer-2" className="drawer-overlay"></label> 
     <ul className="menu p-4 w-80 text-white font-medium font-serif ">
       {/* Sidebar content here */}
-
-
-      <li><NavLink to='/dashboard/studentclass'><FaUserAlt></FaUserAlt> Your Selected Classes </NavLink></li>
+      {
+        isAdmin? <>
+         <li><NavLink to='/dashboard/manageclass'> <FaUserShield></FaUserShield> Manage Classes </NavLink></li>
+      <li><NavLink to='/dashboard/manageuser'><FaUsers></FaUsers>Manage Users</NavLink></li> 
+        
+        </>:<>
+        <li><NavLink to='/dashboard/studentclass'><FaUserAlt></FaUserAlt> Your Selected Classes </NavLink></li>
       <li><NavLink to='/dashboard/payment'><FaWallet></FaWallet> Payment</NavLink></li>
+        </>
+      }
+
+
+      
+
+      
       <div className="divider"></div>
       <li><NavLink to='/'><FaHome></FaHome> Home</NavLink></li>
 

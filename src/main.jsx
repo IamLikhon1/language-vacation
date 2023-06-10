@@ -17,6 +17,8 @@ import Classes from './pages/Classes/Classes';
 import StudentClass from './pages/DashBoard/StudentClass/StudentClass';
 import StudentPayment from './pages/DashBoard/StudentClass/StudentPayment';
 import PrivateRoute from './providers/PrivateRoute';
+import ManageClass from './pages/DashBoard/Admin/ManageClass/ManageClass';
+import ManageUser from './pages/DashBoard/Admin/ManageUser/ManageUser';
 
 const router = createBrowserRouter([
   {
@@ -61,6 +63,15 @@ const router = createBrowserRouter([
       {
         path:'payment',
         element:<StudentPayment></StudentPayment>
+      },
+      // admin
+      {
+        path:'manageclass',
+        element:<ManageClass></ManageClass>
+      },
+      {
+        path:'manageuser',
+        element:<ManageUser></ManageUser>
       }
     ]
   }
