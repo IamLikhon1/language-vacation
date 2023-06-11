@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
 import Swal from "sweetalert2";
 import SocialSign from "../../../componet/SocialSign/SocialSign";
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 const Login = () => {
   const {signInUser}=useContext(AuthContext)
@@ -58,10 +59,10 @@ const Login = () => {
           <input type={show?'text':'password'} placeholder="password" name="password" className="input input-bordered" required />
         </div>
 
-        <p className="relative bottom-9 left-56 font-semibold" onClick={()=>setShow(!show)}>
-        <small>
+        <p className="relative bottom-9 left-72 font-semibold" onClick={()=>setShow(!show)}>
+        <small className="text-2xl text-orange-700">
         {
-          show?<span>Hide Password</span>:<span>Show Password</span>
+          show?<span><FaEyeSlash></FaEyeSlash></span>:<span><FaEye></FaEye></span>
         }
         </small>
         </p>
