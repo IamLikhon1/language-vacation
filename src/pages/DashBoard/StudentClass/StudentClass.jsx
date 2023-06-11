@@ -27,8 +27,8 @@ const StudentClass = () => {
         .then(data=>{
           if(data.deletedCount>0){
             Swal.fire(
-          'Deleted!',
-          'Your class has been deleted.',
+          'Your class has been deleted!',
+          'Please reload  the Page.',
           'success'
          )
          const remaining=cardDelete.filter(item=>item._id!==id)

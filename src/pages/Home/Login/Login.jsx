@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
 import Swal from "sweetalert2";
@@ -6,6 +6,7 @@ import SocialSign from "../../../componet/SocialSign/SocialSign";
 
 const Login = () => {
   const {signInUser}=useContext(AuthContext)
+  const [show,setShow]=useState(false)
   const location=useLocation()
     const navigate=useNavigate()
 
@@ -54,8 +55,18 @@ const Login = () => {
           <label className="label">
             <span className="label-text">Password</span>
           </label>
-          <input type="password" placeholder="password" name="password" className="input input-bordered" required />
+          <input type={show?'text':'password'} placeholder="password" name="password" className="input input-bordered" required />
         </div>
+
+        <p className="relative bottom-9 left-56 font-semibold" onClick={()=>setShow(!show)}>
+        <small>
+        {
+          show?<span>Hide Password</span>:<span>Show Password</span>
+        }
+        </small>
+        </p>
+        
+
         <div className="form-control mt-6">
           <button type="submit" className="btn btn-warning">Login</button>
 
