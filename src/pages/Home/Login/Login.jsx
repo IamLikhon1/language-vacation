@@ -38,9 +38,9 @@ const Login = () => {
 };
 
     return (
-        <div className="grid md:grid-cols-2 p-10">
+        <div className="grid md:grid-cols-2 overflow-x-hidden">
             <img className="w-full" src="https://img.freepik.com/free-vector/privacy-policy-concept-illustration_114360-7853.jpg?w=740&t=st=1686067414~exp=1686068014~hmac=3a9e8d4b7e0e3fff6846219c6ccc9063eed9d8a2294948fa9ca1282603ac5842" alt="" />
-            <div className="w-full">
+            <div className="w-full mt-14">
             <div className="hero min-h-screen">
   <div className="hero-content flex-col">
     <div className="text-center lg:text-left">
