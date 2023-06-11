@@ -30,7 +30,7 @@ const ClassesSection = () => {
             <div className="card-body">
                 <h2 className="card-title">Classes Section: Learn Arabic</h2>
                 <div className='flex'>
-                <p className="font-medium">Number Of Students: 545 </p>
+                <p className="font-medium">Number Of Students: 235 </p>
                 <FaUsers className='text-xl text-orange-500'></FaUsers>
                 </div>
                 <p className="font-medium">Description: Unlocking the Language of the Middle East </p>
@@ -44,7 +44,7 @@ const ClassesSection = () => {
             <div className="card-body">
                 <h2 className="card-title">Classes Section: Learn Hindi</h2>
                 <div className='flex'>
-                <p className="font-medium">Number Of Students: 545 </p>
+                <p className="font-medium">Number Of Students: 155 </p>
                 <FaUsers className='text-xl text-orange-500'></FaUsers>
                 </div>
                 <p className="font-medium">Description: Indias Vibrant and Diverse Language</p>
@@ -57,7 +57,7 @@ const ClassesSection = () => {
             <div className="card-body">
                 <h2 className="card-title">Classes Section: Learn French</h2>
                 <div className='flex'>
-                <p className="font-medium">Number Of Students: 545 </p>
+                <p className="font-medium">Number Of Students: 300 </p>
                 <FaUsers className='text-xl text-orange-500'></FaUsers>
                 </div>
                 <p className="font-medium">Description: The Language of Culture and Elegance</p>
@@ -71,7 +71,7 @@ const ClassesSection = () => {
             <div className="card-body">
                 <h2 className="card-title">Classes Section: Learn Bangla</h2>
                 <div className='flex'>
-                <p className="font-medium">Number Of Students: 545 </p>
+                <p className="font-medium">Number Of Students: 200 </p>
                 <FaUsers className='text-xl text-orange-500'></FaUsers>
                 </div>
                 <p className="font-medium">Description: Exploring the Richness of the Bengali Language</p>
@@ -85,7 +85,7 @@ const ClassesSection = () => {
             <div className="card-body">
                 <h2 className="card-title">Classes Section: Learn Spanish</h2>
                 <div className='flex'>
-                <p className="font-medium">Number Of Students: 545 </p>
+                <p className="font-medium">Number Of Students: 299 </p>
                 <FaUsers className='text-xl text-orange-500'></FaUsers>
                 </div>
                 <p className="font-medium">Description:  From Madrid to Mexico City</p>
