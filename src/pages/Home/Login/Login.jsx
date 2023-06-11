@@ -4,6 +4,7 @@ import { AuthContext } from "../../../providers/AuthProvider";
 import Swal from "sweetalert2";
 import SocialSign from "../../../componet/SocialSign/SocialSign";
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import { toast } from "react-hot-toast";
 
 const Login = () => {
   const {signInUser}=useContext(AuthContext)
@@ -31,7 +32,9 @@ const Login = () => {
         })
         navigate(from,{replace:true})
     })
-    .catch(error=>console.log(error))
+    .catch(error=>{console.log(error)
+       toast.error('Access Wrong Provide Right valid Information')
+    })
 };
 
     return (
