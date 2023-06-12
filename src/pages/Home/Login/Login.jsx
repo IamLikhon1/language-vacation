@@ -33,7 +33,7 @@ const Login = () => {
         navigate(from,{replace:true})
     })
     .catch(error=>{console.log(error)
-       toast.error('Access Wrong Provide Right valid Information')
+       toast.error(error.message)
     })
 };
 
