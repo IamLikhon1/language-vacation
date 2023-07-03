@@ -10,7 +10,7 @@ const InstructorsSection = () => {
           })
     }
     return (
-        <div>
+        <div data-aos="zoom-in-up"data-aos-duration="1500">
              <h2 className="text-4xl my-10 text-center font-serif font-medium text-orange-500 uppercase ">Our Popular Instructors Section</h2>
 
              <div className="grid md:grid-cols-3 gap-10 mx-16 my-20 ">
@@ -54,7 +54,7 @@ const InstructorsSection = () => {
                 {/* card 3 */}
 
                 {/* card 4 */}
-                <div className="card card-compact w-full  bg-base-100 shadow-xl">
+                <div className="card card-compact w-full  bg-base-100 shadow-xl"data-aos="zoom-in-up"data-aos-duration="2000">
                         <figure><img className="h-72" src="https://img.freepik.com/premium-vector/person-avatar-icon-design-vector-multiple-use-vector-illustration_625349-280.jpg?w=740" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Instructor: Mr.Watson Smith</h2>
@@ -67,7 +67,7 @@ const InstructorsSection = () => {
                 {/* card 4 */}
 
                 {/* card 5 */}
-                <div className="card card-compact w-full   bg-base-100 shadow-xl">
+                <div className="card card-compact w-full   bg-base-100 shadow-xl"data-aos="zoom-in-up"data-aos-duration="2000">
                         <figure><img className="h-72" src="https://img.freepik.com/premium-vector/people-profile-graphic_24911-21374.jpg?w=740" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Instructor: Ms.Kylie Jenner</h2>
@@ -80,7 +80,7 @@ const InstructorsSection = () => {
                 {/* card 5 */}
 
                 {/* card 6 */}
-                <div className="card card-compact w-full  bg-base-100 shadow-xl">
+                <div className="card card-compact w-full  bg-base-100 shadow-xl"data-aos="zoom-in-up"data-aos-duration="2000">
                         <figure><img className="h-72" src="https://img.freepik.com/premium-vector/avatar-cute-little-boy-isolated-vector-illustration-cartoon-style_174639-55036.jpg?w=740" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Instructor: Mr. Asaduzzaman</h2>
