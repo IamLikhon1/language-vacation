@@ -30,6 +30,7 @@ const Login = () => {
           icon: 'success',
           confirmButtonText: 'Cool'
         })
+        
         navigate(from,{replace:true})
     })
     .catch(error=>{console.log(error)
